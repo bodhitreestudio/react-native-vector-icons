@@ -4,6 +4,7 @@ rm -rf {Fonts,AntDesign.js,Entypo.js,FontAwesome.js,Fontisto.js,Foundation.js,Io
 mkdir Fonts glyphmaps
 ./scripts/antdesign.sh
 ./scripts/entypo.sh
+./scripts/fioriicons.sh
 ./scripts/fontawesome.sh
 ./scripts/fontawesome5.sh
 ./scripts/fontisto.sh

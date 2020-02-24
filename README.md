@@ -35,7 +35,6 @@ Perfect for buttons, logos and nav/tab bars. Easy to extend, style and integrate
 
 - [`AntDesign`](https://ant.design/) by AntFinance (**297** icons)
 - [`Entypo`](http://entypo.com) by Daniel Bruce (**411** icons)
-- [`EvilIcons`](http://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1, **70** icons)
 - [`Feather`](http://feathericons.com) by Cole Bemis & Contributors (v4.21.0, **279** icons)
 - [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons)
 - [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, 1500 (free) **5082** (pro) icons)
@@ -72,7 +71,6 @@ If you want to use any of the bundled icons, you need to add the icon fonts to y
   <array>
     <string>AntDesign.ttf</string>
     <string>Entypo.ttf</string>
-    <string>EvilIcons.ttf</string>
     <string>Feather.ttf</string>
     <string>FontAwesome.ttf</string>
     <string>FontAwesome5_Brands.ttf</string>
@@ -132,7 +130,7 @@ To customize the files being copied, add the following instead:
 
 ```gradle
 project.ext.vectoricons = [
-    iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf' ] // Name of the font files you want to copy
+    iconFontNames: [ 'MaterialIcons.ttf' ] // Name of the font files you want to copy
 ]
 
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
